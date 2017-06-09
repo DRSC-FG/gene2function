@@ -78,8 +78,7 @@ CREATE TABLE `Ortholog_Max_Score` (
   `common_name` varchar(64) DEFAULT NULL,
   `species_name` varchar(128) DEFAULT NULL,
   `max_score` int(11) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-/*!40101 SET character_set_client = @saved_cs_client */;
+) 
 
 --
 -- Table structure for table `Ortholog_Pair_Best`
